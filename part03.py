@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+# the whole shebang
+# pylauncher
+# create an executable py.exe and is on the path
+# associated with *.py files
+# parse shebangs to locate the correct python interpreter
+"""#"!/usr/bin/env python3 """
+# works for windows,
+# controls module sexecution by the program loader
+
 # modularity import
 # import part 02 module
 # or from module import sub module
@@ -46,6 +56,16 @@ even_or_odd(5)
 # special attributes in python
 # are delimited by double underscores
 # __name__ ex: __main__
+# __name to dtermine how the module is being used
 # main functions and command line arguments
 if __name__ == '__main__':
-    part02.main()
+    part02. main()
+# help function to display all
+# infos that you have made in your documentation
+# docstrings
+help(part02)
+
+""" 
+ Documenting your code 
+ using docstrings 
+ """
