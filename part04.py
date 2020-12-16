@@ -1,3 +1,4 @@
+import part03
 # oriented objects programming
 # objects
 # refrences
@@ -192,4 +193,23 @@ print(add([1, 2], [3, 4]))
 # strong type system there is no implicit type conversion
 # can't run , can't convert  int to string
 # we should put only the same types args
-print(add("past ", 23))
+# print(add("past ", 23)) / error type mis  match
+
+# variables scoping
+# object references have no type
+# types of scopes
+# 1 local scope context, word
+# 2 enclosing sys, urlopen , fetch_words
+# 3 global , global count
+# 4 built-in , __name__
+
+# everything is an object
+print(type(part03))
+print(dir(part03))
+print(type(part03.square))
+print(dir(part03.square))
+print(part03.square.__dict__)
+
+# you can multiply a string by an integer
+#   produces a new string with multiple copies of the operand
+#   this is called the repitiion operation
